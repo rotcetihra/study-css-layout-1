@@ -1,0 +1,42 @@
+.flex {
+  display: flex;
+}
+@media (min-width: 64rem) {
+  .lg\:flex {
+    display: flex !important;
+  }
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+@media (min-width: 40rem) {
+  .sm\:justify-center {
+    justify-content: center;
+  }
+}
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+.gap-0\.5 {
+  gap: 0.5rem;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.gap-1\.5 {
+  gap: 1.5rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+@media (min-width: 80rem) {
+  .xl\:gap-3 {
+    gap: 3rem !important;
+  }
+}

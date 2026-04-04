@@ -1,0 +1,22 @@
+:root {
+  --border-width: 1px;
+  --border-style: solid;
+  --border-color: black;
+}
+.border-green-1 {
+  --border-color: var(--color-green-1);
+}
+.a\:border-green-3:active {
+  --border-color: var(--color-green-3);
+}
+.border-green-5 {
+  --border-color: var(--color-green-5);
+}
+.border {
+  border-width: var(--border-width);
+  border-style: var(--border-style);
+  border-color: var(--border-color);
+}
+.border-0 {
+  border-width: 0;
+}

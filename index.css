@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/4.0.0/uicons-brands/css/uicons-brands.css");
+@import url("css/lib.css");
+
+html {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  --logo: url("images/logo-white.png");
+}
+
+.bg-logo-white {
+  background-image: var(--logo);
+}
+.h\:bg-logo-green-1:hover {
+  --logo: url("images/logo-green-1.png");
+}
+.a\:bg-logo-green-2:active {
+  --logo: url("images/logo-green-2.png");
+}
+.bg-block1 {
+  background-image: url("images/block1.png");
+}
+.bg-block4 {
+  background-image: url("images/image7.png");
+}
+.bg-brightness-50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
