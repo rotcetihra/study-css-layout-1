@@ -1,0 +1,21 @@
+.cursor {
+  &-pointer {
+    cursor: pointer;
+  }
+}
+
+.h\:cursor {
+  &-pointer {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.f\:cursor {
+  &-text {
+    &:focus {
+      cursor: text;
+    }
+  }
+}

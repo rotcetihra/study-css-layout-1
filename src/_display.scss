@@ -1,0 +1,44 @@
+.inline {
+  display: inline;
+
+  &-block {
+    display: inline-block;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.sm\: {
+  @media (min-width: 40rem) {
+    &inline {
+      display: inline !important;
+    }
+    &hidden {
+      display: none !important;
+    }
+  }
+}
+
+.md\: {
+  @media (min-width: 48rem) {
+    &inline {
+      display: inline !important;
+    }
+    &hidden {
+      display: none !important;
+    }
+  }
+}
+
+.lg\: {
+  @media (min-width: 64rem) {
+    &inline {
+      display: inline !important;
+    }
+    &hidden {
+      display: none !important;
+    }
+  }
+}

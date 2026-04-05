@@ -1,0 +1,29 @@
+@use "variables" as *;
+
+.f\: {
+  &outline {
+    &:focus {
+      outline-width: 1px;
+      outline-style: solid;
+      outline-offset: 0;
+    }
+    &-2 {
+      &:focus {
+        outline-width: 2px;
+        outline-style: solid;
+        outline-offset: 0;
+      }
+    }
+    &-green {
+      &-1:focus {
+        outline-color: $green-1;
+      }
+      &-2:focus {
+        outline-color: $green-2;
+      }
+      &-4:focus {
+        outline-color: $green-4;
+      }
+    }
+  }
+}

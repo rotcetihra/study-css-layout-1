@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "sass": "^1.99.0"
+  },
+  "scripts": {
+    "build": "sass --load-path=src src/lib.scss build/lib.css"
+  }
+}

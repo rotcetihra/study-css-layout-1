@@ -1,0 +1,65 @@
+.flex {
+  display: flex;
+
+  &-col {
+    flex-direction: column;
+  }
+}
+
+.justify {
+  &-center {
+    justify-content: center;
+  }
+  &-between {
+    justify-content: space-between;
+  }
+}
+
+.items {
+  &-center {
+    align-items: center;
+  }
+}
+
+.gap {
+  &-0\.5 {
+    gap: 0.5rem;
+  }
+  &-1 {
+    gap: 1rem;
+  }
+  &-1\.5 {
+    gap: 1.5rem;
+  }
+  &-2 {
+    gap: 2rem;
+  }
+}
+
+.sm\: {
+  @media (min-width: 40rem) {
+    &justify {
+      &-center {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.lg\: {
+  @media (min-width: 64rem) {
+    &flex {
+      display: flex !important;
+    }
+  }
+}
+
+.xl\: {
+  @media (min-width: 80rem) {
+    &gap {
+      &-3 {
+        gap: 3rem !important;
+      }
+    }
+  }
+}

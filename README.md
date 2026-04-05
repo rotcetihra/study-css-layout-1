@@ -18,6 +18,7 @@
 
 - HTML5
 - CSS3
+- SCSS
 
 ## Источники
 
@@ -27,6 +28,7 @@
 - Иконки: [Flaticon](https://www.flaticon.com/ru/)
 - Справочник CSS: [WebRef](https://webref.ru/css)
 - Руководство по HTML5 и CSS3: [Metanit](https://metanit.com/web/html5/)
+- Документация по SCSS: [sass-scss.ru](https://sass-scss.ru/documentation/)
 
 ## CDN
 

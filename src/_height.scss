@@ -1,0 +1,26 @@
+.h {
+  &-full {
+    height: 100%;
+  }
+}
+
+.max-h {
+  &-30 {
+    max-height: 30rem;
+  }
+}
+
+.lg\: {
+  @media (min-width: 64rem) {
+    &h {
+      &-full {
+        height: 100%;
+      }
+    }
+    &max-h {
+      &-auto {
+        max-height: none;
+      }
+    }
+  }
+}

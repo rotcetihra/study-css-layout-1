@@ -1,0 +1,20 @@
+.overflow {
+  &-x {
+    &-hidden {
+      overflow-x: hidden;
+    }
+    &-scroll {
+      overflow-x: scroll;
+    }
+  }
+}
+
+.lg\: {
+  @media (min-width: 64rem) {
+    &overflow {
+      &-hidden {
+        overflow: hidden;
+      }
+    }
+  }
+}

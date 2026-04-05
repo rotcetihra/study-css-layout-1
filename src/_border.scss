@@ -1,0 +1,25 @@
+@use "variables" as *;
+
+.border {
+  border-width: 1px;
+  border-style: solid;
+
+  &-green-1 {
+    border-color: $green-1;
+  }
+  &-green-5 {
+    border-color: $green-5;
+  }
+
+  &-0 {
+    border-width: 0;
+  }
+}
+
+.a\:border {
+  &-green-3 {
+    &:active {
+      border-color: $green-3;
+    }
+  }
+}

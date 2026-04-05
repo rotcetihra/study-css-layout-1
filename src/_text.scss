@@ -1,0 +1,163 @@
+@use "variables" as *;
+
+.text {
+  &-white {
+    color: $white;
+  }
+  &-grey {
+    color: $grey;
+  }
+  &-lightgrey {
+    color: $lightgrey;
+  }
+  &-green {
+    &-1 {
+      color: $green-1;
+    }
+    &-3 {
+      color: $green-3;
+    }
+    &-4 {
+      color: $green-4;
+    }
+  }
+  &-nowrap {
+    text-wrap: nowrap;
+  }
+  &-bold {
+    font-weight: bold;
+  }
+  &-center {
+    text-align: center;
+  }
+  &-0\.75 {
+    font-size: 0.75rem;
+  }
+  &-0\.875 {
+    font-size: 0.875rem;
+  }
+  &-1 {
+    font-size: 1rem;
+  }
+  &-1\.125 {
+    font-size: 1.125rem;
+  }
+  &-1\.25 {
+    font-size: 1.25rem;
+  }
+  &-1\.5 {
+    font-size: 1.5rem;
+  }
+  &-2 {
+    font-size: 2rem;
+  }
+  &-2\.5 {
+    font-size: 2.5rem;
+  }
+  &-3 {
+    font-size: 3rem;
+  }
+}
+
+.line {
+  &-0 {
+    line-height: 0;
+  }
+}
+
+.h\: {
+  &text {
+    &-green {
+      &-1 {
+        &:hover {
+          color: $green-1;
+        }
+      }
+      &-2 {
+        &:hover {
+          color: $green-2;
+        }
+      }
+      &-3 {
+        &:hover {
+          color: $green-3;
+        }
+      }
+      &-4 {
+        &:hover {
+          color: $green-4;
+        }
+      }
+    }
+  }
+  &placeholder\: {
+    &text {
+      &-white {
+        &:hover {
+          &::placeholder {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.a\: {
+  &text {
+    &-green {
+      &-3 {
+        &:active {
+          color: $green-3;
+        }
+      }
+      &-5 {
+        &:active {
+          color: $green-5;
+        }
+      }
+    }
+  }
+}
+
+.placeholder\: {
+  &text {
+    &-lightgrey {
+      &::placeholder {
+        color: $lightgrey;
+      }
+    }
+  }
+}
+
+.md\: {
+  @media (min-width: 48rem) {
+    &text {
+      &-left {
+        text-align: left !important;
+      }
+      &-3 {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+.lg\: {
+  @media (min-width: 64rem) {
+    &text {
+      &-0\.75 {
+        font-size: 0.75rem !important;
+      }
+      &-1 {
+        font-size: 1rem !important;
+      }
+      &-1\.125 {
+        font-size: 1.125rem !important;
+      }
+      &-1\.5 {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
+}

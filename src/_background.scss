@@ -1,0 +1,67 @@
+@use "variables" as *;
+
+.bg {
+  &-green-1 {
+    background-color: $green-1;
+  }
+  &-green-4 {
+    background-color: $green-4;
+  }
+  &-green-5 {
+    background-color: $green-5;
+  }
+  &-white {
+    background-color: $white;
+  }
+  &-no-repeat {
+    background-repeat: no-repeat;
+  }
+  &-contain {
+    background-size: contain;
+  }
+  &-cover {
+    background-size: cover;
+  }
+  &-center {
+    background-position: center center;
+  }
+  &-origin {
+    &-content {
+      background-origin: content-box;
+    }
+  }
+}
+
+.h\:bg {
+  &-green-1 {
+    &:hover {
+      background-color: $green-1;
+    }
+  }
+  &-green-2 {
+    &:hover {
+      background-color: $green-2;
+    }
+  }
+  &-lightgrey {
+    &:hover {
+      background-color: $lightgrey;
+    }
+  }
+}
+
+.f\:bg {
+  &-white {
+    &:focus {
+      background-color: $white;
+    }
+  }
+}
+
+.a\:bg {
+  &-green-3 {
+    &:active {
+      background-color: $green-3;
+    }
+  }
+}

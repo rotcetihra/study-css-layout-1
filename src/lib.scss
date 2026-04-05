@@ -1,0 +1,45 @@
+/* 
+  Автор: Архитектор
+  GitHub: https://github.com/rotcetihra
+  Электронная почта: rotcetihra@gmail.com
+  Версия: 0.2.0
+  Лицензия: MIT
+*/
+
+@use "reset";
+@use "variables" as *;
+@use "background";
+@use "border";
+@use "margin";
+@use "padding";
+@use "outline";
+@use "text";
+@use "width";
+@use "height";
+@use "flex";
+@use "grid";
+@use "display";
+@use "cursor";
+@use "position";
+@use "overflow";
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline-width: 1px;
+    outline-offset: 2px;
+    outline-style: solid;
+  }
+  &:active {
+    outline-width: 0;
+  }
+}
